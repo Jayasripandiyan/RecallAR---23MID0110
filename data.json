@@ -1,0 +1,1136 @@
+{
+  "activities": {
+    "id-y9gbdbjrmue1zwnd": {
+      "id": "id-y9gbdbjrmue1zwnd",
+      "name": "Before Leaving Home",
+      "category": "Daily Living",
+      "description": "Practice remembering important items and steps before leaving home.",
+      "difficulty": "Easy",
+      "estimated_minutes": 5,
+      "instructions": "Let's complete this activity together.",
+      "icon": "home",
+      "is_active": 1,
+      "order_index": 0,
+      "created_at": 1790164961545
+    },
+    "id-nsdz4kkomue334ul": {
+      "id": "id-nsdz4kkomue334ul",
+      "name": "taking medicine",
+      "category": "Daily Living",
+      "description": "",
+      "difficulty": "Easy",
+      "estimated_minutes": 5,
+      "instructions": "Let's complete this activity together.",
+      "icon": "home",
+      "is_active": 1,
+      "order_index": 1,
+      "created_at": 1790166791763
+    }
+  },
+  "tasks": {
+    "id-cmv8irihmue1zwnm": {
+      "id": "id-cmv8irihmue1zwnm",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "type": "multiple_choice",
+      "prompt": "What should you take before leaving home?",
+      "hint": "Think about what opens the door.",
+      "explanation": "Keys are important before leaving home.",
+      "order_index": 0,
+      "points": 1,
+      "options": [
+        {
+          "label": "Keys",
+          "icon": "keys",
+          "correct": true
+        },
+        {
+          "label": "Spoon",
+          "icon": "spoon",
+          "correct": false
+        },
+        {
+          "label": "Book",
+          "icon": "book",
+          "correct": false
+        },
+        {
+          "label": "Bottle",
+          "icon": "bottle",
+          "correct": false
+        }
+      ]
+    },
+    "id-lbtbpr6fmue1zwnm": {
+      "id": "id-lbtbpr6fmue1zwnm",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "type": "multiple_choice",
+      "prompt": "Which item would you normally use to contact someone?",
+      "hint": "You carry it in your pocket.",
+      "explanation": "A phone is used to contact someone.",
+      "order_index": 1,
+      "points": 1,
+      "options": [
+        {
+          "label": "Phone",
+          "icon": "phone",
+          "correct": true
+        },
+        {
+          "label": "Plate",
+          "icon": "plate",
+          "correct": false
+        },
+        {
+          "label": "Pillow",
+          "icon": "pillow",
+          "correct": false
+        },
+        {
+          "label": "Shoe",
+          "icon": "shoe",
+          "correct": false
+        }
+      ]
+    },
+    "id-3ng9l55hmue1zwnm": {
+      "id": "id-3ng9l55hmue1zwnm",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "type": "ordering",
+      "prompt": "Arrange these steps in the correct order.",
+      "hint": "Start with what you pick up first.",
+      "explanation": "First take your keys, then phone, then bag, then leave.",
+      "order_index": 2,
+      "points": 2,
+      "options": [
+        {
+          "label": "Take your keys",
+          "icon": "keys",
+          "correct": false,
+          "order": 0
+        },
+        {
+          "label": "Take your phone",
+          "icon": "phone",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "Take your bag",
+          "icon": "bag",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Leave the house",
+          "icon": "door",
+          "correct": false,
+          "order": 3
+        }
+      ]
+    },
+    "id-ek03omhemue1zwnm": {
+      "id": "id-ek03omhemue1zwnm",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "type": "memory_recall",
+      "prompt": "Which items do you remember seeing?",
+      "hint": "Pick the ones from before.",
+      "explanation": "Keys, phone and bag were shown earlier.",
+      "order_index": 3,
+      "points": 2,
+      "options": [
+        {
+          "label": "Keys",
+          "icon": "keys",
+          "correct": true
+        },
+        {
+          "label": "Phone",
+          "icon": "phone",
+          "correct": true
+        },
+        {
+          "label": "Bag",
+          "icon": "bag",
+          "correct": true
+        },
+        {
+          "label": "Apple",
+          "icon": "apple",
+          "correct": false
+        }
+      ]
+    },
+    "id-84nowczimue1zwnm": {
+      "id": "id-84nowczimue1zwnm",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "type": "yes_no",
+      "prompt": "Do you need your keys before leaving home?",
+      "hint": "Think about locking the door.",
+      "explanation": "Yes, you need your keys.",
+      "order_index": 4,
+      "points": 1,
+      "options": [
+        {
+          "label": "Yes",
+          "icon": "check",
+          "correct": true
+        },
+        {
+          "label": "No",
+          "icon": "cross",
+          "correct": false
+        }
+      ]
+    },
+    "id-l677c49amue2cush": {
+      "id": "id-l677c49amue2cush",
+      "activity_id": null,
+      "type": "multiple_choice",
+      "prompt": "When do you take your morning medicine?",
+      "hint": "Think about what you do first in the morning",
+      "explanation": "Morning medicine is taken after breakfast.",
+      "order_index": 0,
+      "points": 2,
+      "options": [
+        {
+          "label": "After breakfast",
+          "icon": "cup",
+          "correct": true,
+          "order": 0
+        },
+        {
+          "label": "Before bed",
+          "icon": "pillow",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "With lunch",
+          "icon": "plate",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Never",
+          "icon": "cross",
+          "correct": false,
+          "order": 3
+        }
+      ]
+    },
+    "id-vfrl1w19mue2tnro": {
+      "id": "id-vfrl1w19mue2tnro",
+      "activity_id": null,
+      "type": "multiple_choice",
+      "prompt": "What do you do first when you wake up?",
+      "hint": "Think about what you do first in the morning.",
+      "explanation": "Morning medicine is taken after breakfast.",
+      "order_index": 1,
+      "points": 1,
+      "options": [
+        {
+          "label": "After breakfast",
+          "icon": "cup",
+          "correct": true,
+          "order": 0
+        },
+        {
+          "label": "Before bed",
+          "icon": "pillow",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "With lunch",
+          "icon": "plate",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Never",
+          "icon": "cross",
+          "correct": false,
+          "order": 3
+        }
+      ]
+    },
+    "id-wecd3ejtmue37pt0": {
+      "id": "id-wecd3ejtmue37pt0",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "type": "multiple_choice",
+      "prompt": "When do you take your morning medicine?",
+      "hint": "Think about what you do first in the morning.",
+      "explanation": "Morning medicine is taken after breakfast.",
+      "order_index": 0,
+      "points": 1,
+      "options": [
+        {
+          "label": "After breakfast",
+          "icon": "cup",
+          "correct": true,
+          "order": 0
+        },
+        {
+          "label": "Before bed",
+          "icon": "pillow",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "With lunch",
+          "icon": "plate",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Never",
+          "icon": "cross",
+          "correct": false,
+          "order": 3
+        }
+      ]
+    },
+    "id-gurcr7l8mue39qsl": {
+      "id": "id-gurcr7l8mue39qsl",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "type": "multiple_choice",
+      "prompt": "What should you drink with your medicine?",
+      "hint": "Plain and simple is best.",
+      "explanation": "Water helps the medicine go down safely.",
+      "order_index": 1,
+      "points": 1,
+      "options": [
+        {
+          "label": "Water",
+          "icon": "water",
+          "correct": true,
+          "order": 0
+        },
+        {
+          "label": "Tea",
+          "icon": "cup",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "Milk",
+          "icon": "bottle",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Juice",
+          "icon": "apple",
+          "correct": false,
+          "order": 3
+        }
+      ]
+    },
+    "id-3wqeevp6mue3aw2r": {
+      "id": "id-3wqeevp6mue3aw2r",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "type": "multiple_choice",
+      "prompt": "Should you take your medicine on an empty stomach?",
+      "hint": "Think about what your doctor told you.",
+      "explanation": "No. Always take medicine after food, unless your doctor says otherwise.",
+      "order_index": 2,
+      "points": 1,
+      "options": [
+        {
+          "label": "yes",
+          "icon": "check",
+          "correct": true,
+          "order": 0
+        },
+        {
+          "label": "no",
+          "icon": "cross",
+          "correct": false,
+          "order": 1
+        }
+      ]
+    },
+    "id-yel9fi4gmue3edb1": {
+      "id": "id-yel9fi4gmue3edb1",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "type": "ordering",
+      "prompt": "Arrange the steps for taking your medicine.",
+      "hint": "Start with picking up the bottle.",
+      "explanation": "Take the bottle, open the cap, take one pill, drink water, close the cap.",
+      "order_index": 3,
+      "points": 1,
+      "options": [
+        {
+          "label": "Take the bottle",
+          "icon": "water",
+          "correct": false,
+          "order": 0
+        },
+        {
+          "label": "Open the cap",
+          "icon": "door",
+          "correct": false,
+          "order": 1
+        },
+        {
+          "label": "Take one pill",
+          "icon": "medicine",
+          "correct": false,
+          "order": 2
+        },
+        {
+          "label": "Drink water",
+          "icon": "water",
+          "correct": false,
+          "order": 3
+        },
+        {
+          "label": "Close the cap",
+          "icon": "check",
+          "correct": false,
+          "order": 4
+        }
+      ]
+    }
+  },
+  "sessions": {
+    "id-z8495kpwmue2vfym": {
+      "id": "id-z8495kpwmue2vfym",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790166432910,
+      "completed_at": 1790166450891,
+      "duration_seconds": 18,
+      "total_tasks": 5,
+      "correct_tasks": 3,
+      "total_points": 7,
+      "earned_points": 4,
+      "score_percent": 57,
+      "status": "completed"
+    },
+    "id-cqxr5gq8mue3ewhk": {
+      "id": "id-cqxr5gq8mue3ewhk",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790167340792,
+      "completed_at": 1790167363462,
+      "duration_seconds": 23,
+      "total_tasks": 5,
+      "correct_tasks": 3,
+      "total_points": 7,
+      "earned_points": 4,
+      "score_percent": 57,
+      "status": "completed"
+    },
+    "id-mrlnr5gkmue3feyd": {
+      "id": "id-mrlnr5gkmue3feyd",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "started_at": 1790167364725,
+      "completed_at": 1790167384004,
+      "duration_seconds": 19,
+      "total_tasks": 4,
+      "correct_tasks": 4,
+      "total_points": 4,
+      "earned_points": 4,
+      "score_percent": 100,
+      "status": "completed"
+    },
+    "id-lc2nu5gumue4tom2": {
+      "id": "id-lc2nu5gumue4tom2",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790169710042,
+      "completed_at": 1790169728305,
+      "duration_seconds": 18,
+      "total_tasks": 5,
+      "correct_tasks": 3,
+      "total_points": 7,
+      "earned_points": 4,
+      "score_percent": 57,
+      "status": "completed"
+    },
+    "id-kb4fl8tqmue4u4z8": {
+      "id": "id-kb4fl8tqmue4u4z8",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "started_at": 1790169731252,
+      "completed_at": 1790169743827,
+      "duration_seconds": 13,
+      "total_tasks": 4,
+      "correct_tasks": 2,
+      "total_points": 4,
+      "earned_points": 2,
+      "score_percent": 50,
+      "status": "completed"
+    },
+    "id-kc5gm1uamue8cx21": {
+      "id": "id-kc5gm1uamue8cx21",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790175646297,
+      "completed_at": null,
+      "duration_seconds": 0,
+      "total_tasks": 5,
+      "correct_tasks": 1,
+      "total_points": 7,
+      "earned_points": 1,
+      "score_percent": 0,
+      "status": "in_progress"
+    },
+    "id-8x6hmv9emue8w6w0": {
+      "id": "id-8x6hmv9emue8w6w0",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790176545504,
+      "completed_at": 1790176564267,
+      "duration_seconds": 19,
+      "total_tasks": 5,
+      "correct_tasks": 1,
+      "total_points": 7,
+      "earned_points": 1,
+      "score_percent": 14,
+      "status": "completed"
+    },
+    "id-4lo1h3k0mue8wmdi": {
+      "id": "id-4lo1h3k0mue8wmdi",
+      "activity_id": "id-nsdz4kkomue334ul",
+      "started_at": 1790176565574,
+      "completed_at": 1790176579697,
+      "duration_seconds": 14,
+      "total_tasks": 4,
+      "correct_tasks": 3,
+      "total_points": 4,
+      "earned_points": 3,
+      "score_percent": 75,
+      "status": "completed"
+    },
+    "id-akb5pr2ymuf1wp0u": {
+      "id": "id-akb5pr2ymuf1wp0u",
+      "activity_id": "id-y9gbdbjrmue1zwnd",
+      "started_at": 1790225277870,
+      "completed_at": null,
+      "duration_seconds": 0,
+      "total_tasks": 5,
+      "correct_tasks": 1,
+      "total_points": 7,
+      "earned_points": 1,
+      "score_percent": 0,
+      "status": "in_progress"
+    }
+  },
+  "attempts": {
+    "id-fdrnawpnmue2vh6o": {
+      "id": "id-fdrnawpnmue2vh6o",
+      "session_id": "id-z8495kpwmue2vfym",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Keys\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790166434496
+    },
+    "id-s0gfw2jhmue2vjnr": {
+      "id": "id-s0gfw2jhmue2vjnr",
+      "session_id": "id-z8495kpwmue2vfym",
+      "task_id": "id-lbtbpr6fmue1zwnm",
+      "selected_json": "[\"Plate\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790166437703
+    },
+    "id-2505kqb9mue2vlqf": {
+      "id": "id-2505kqb9mue2vlqf",
+      "session_id": "id-z8495kpwmue2vfym",
+      "task_id": "id-3ng9l55hmue1zwnm",
+      "selected_json": "[\"Take your keys\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790166440391
+    },
+    "id-9xqxxkqdmue2voli": {
+      "id": "id-9xqxxkqdmue2voli",
+      "session_id": "id-z8495kpwmue2vfym",
+      "task_id": "id-ek03omhemue1zwnm",
+      "selected_json": "[\"Phone\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790166444103
+    },
+    "id-2yl12pmcmue2vseg": {
+      "id": "id-2yl12pmcmue2vseg",
+      "session_id": "id-z8495kpwmue2vfym",
+      "task_id": "id-84nowczimue1zwnm",
+      "selected_json": "[\"Yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790166449032
+    },
+    "id-3k7izi9wmue3f05i": {
+      "id": "id-3k7izi9wmue3f05i",
+      "session_id": "id-cqxr5gq8mue3ewhk",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Keys\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167345542
+    },
+    "id-e2g0cg5amue3f4xc": {
+      "id": "id-e2g0cg5amue3f4xc",
+      "session_id": "id-cqxr5gq8mue3ewhk",
+      "task_id": "id-lbtbpr6fmue1zwnm",
+      "selected_json": "[\"Phone\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167351728
+    },
+    "id-7g0aa2rsmue3f7rt": {
+      "id": "id-7g0aa2rsmue3f7rt",
+      "session_id": "id-cqxr5gq8mue3ewhk",
+      "task_id": "id-3ng9l55hmue1zwnm",
+      "selected_json": "[\"Take your keys\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167355417
+    },
+    "id-icit7220mue3faaz": {
+      "id": "id-icit7220mue3faaz",
+      "session_id": "id-cqxr5gq8mue3ewhk",
+      "task_id": "id-ek03omhemue1zwnm",
+      "selected_json": "[\"Bag\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167358699
+    },
+    "id-odsrr30smue3fca1": {
+      "id": "id-odsrr30smue3fca1",
+      "session_id": "id-cqxr5gq8mue3ewhk",
+      "task_id": "id-84nowczimue1zwnm",
+      "selected_json": "[\"No\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167361257
+    },
+    "id-q6oqfm25mue3fk4g": {
+      "id": "id-q6oqfm25mue3fk4g",
+      "session_id": "id-mrlnr5gkmue3feyd",
+      "task_id": "id-wecd3ejtmue37pt0",
+      "selected_json": "[\"After breakfast\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167371424
+    },
+    "id-k3ar9rf8mue3fnbk": {
+      "id": "id-k3ar9rf8mue3fnbk",
+      "session_id": "id-mrlnr5gkmue3feyd",
+      "task_id": "id-gurcr7l8mue39qsl",
+      "selected_json": "[\"Water\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167375568
+    },
+    "id-6a6g6a68mue3fpna": {
+      "id": "id-6a6g6a68mue3fpna",
+      "session_id": "id-mrlnr5gkmue3feyd",
+      "task_id": "id-3wqeevp6mue3aw2r",
+      "selected_json": "[\"yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167378582
+    },
+    "id-lx0kodpymue3fsck": {
+      "id": "id-lx0kodpymue3fsck",
+      "session_id": "id-mrlnr5gkmue3feyd",
+      "task_id": "id-yel9fi4gmue3edb1",
+      "selected_json": "[\"Drink water\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790167382084
+    },
+    "id-8g41xrb9mue4tsfn": {
+      "id": "id-8g41xrb9mue4tsfn",
+      "session_id": "id-lc2nu5gumue4tom2",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Keys\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169714995
+    },
+    "id-k9k0vrwzmue4tucx": {
+      "id": "id-k9k0vrwzmue4tucx",
+      "session_id": "id-lc2nu5gumue4tom2",
+      "task_id": "id-lbtbpr6fmue1zwnm",
+      "selected_json": "[\"Pillow\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169717489
+    },
+    "id-afhcd09xmue4twde": {
+      "id": "id-afhcd09xmue4twde",
+      "session_id": "id-lc2nu5gumue4tom2",
+      "task_id": "id-3ng9l55hmue1zwnm",
+      "selected_json": "[\"Take your phone\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169720098
+    },
+    "id-2x0t8jgvmue4tyoz": {
+      "id": "id-2x0t8jgvmue4tyoz",
+      "session_id": "id-lc2nu5gumue4tom2",
+      "task_id": "id-ek03omhemue1zwnm",
+      "selected_json": "[\"Phone\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169723107
+    },
+    "id-9uu5jh6tmue4u148": {
+      "id": "id-9uu5jh6tmue4u148",
+      "session_id": "id-lc2nu5gumue4tom2",
+      "task_id": "id-84nowczimue1zwnm",
+      "selected_json": "[\"Yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169726248
+    },
+    "id-phwfr5abmue4u6j6": {
+      "id": "id-phwfr5abmue4u6j6",
+      "session_id": "id-kb4fl8tqmue4u4z8",
+      "task_id": "id-wecd3ejtmue37pt0",
+      "selected_json": "[\"After breakfast\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169733266
+    },
+    "id-l2ej0atcmue4u8jw": {
+      "id": "id-l2ej0atcmue4u8jw",
+      "session_id": "id-kb4fl8tqmue4u4z8",
+      "task_id": "id-gurcr7l8mue39qsl",
+      "selected_json": "[\"Tea\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169735884
+    },
+    "id-ihk1ob11mue4uaw2": {
+      "id": "id-ihk1ob11mue4uaw2",
+      "session_id": "id-kb4fl8tqmue4u4z8",
+      "task_id": "id-3wqeevp6mue3aw2r",
+      "selected_json": "[\"yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169738914
+    },
+    "id-tg24xg0imue4ud3w": {
+      "id": "id-tg24xg0imue4ud3w",
+      "session_id": "id-kb4fl8tqmue4u4z8",
+      "task_id": "id-yel9fi4gmue3edb1",
+      "selected_json": "[\"Take the bottle\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790169741788
+    },
+    "id-5q3vgmo2mue8d251": {
+      "id": "id-5q3vgmo2mue8d251",
+      "session_id": "id-kc5gm1uamue8cx21",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Bottle\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790175652885
+    },
+    "id-97ml7m3dmue8demk": {
+      "id": "id-97ml7m3dmue8demk",
+      "session_id": "id-kc5gm1uamue8cx21",
+      "task_id": "id-lbtbpr6fmue1zwnm",
+      "selected_json": "[\"Phone\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790175669068
+    },
+    "id-17lhj8ulmue8w9hu": {
+      "id": "id-17lhj8ulmue8w9hu",
+      "session_id": "id-8x6hmv9emue8w6w0",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Spoon\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176548882
+    },
+    "id-kdh1x428mue8wcxs": {
+      "id": "id-kdh1x428mue8wcxs",
+      "session_id": "id-8x6hmv9emue8w6w0",
+      "task_id": "id-lbtbpr6fmue1zwnm",
+      "selected_json": "[\"Plate\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176553344
+    },
+    "id-ibfuvaromue8weqk": {
+      "id": "id-ibfuvaromue8weqk",
+      "session_id": "id-8x6hmv9emue8w6w0",
+      "task_id": "id-3ng9l55hmue1zwnm",
+      "selected_json": "[\"Leave the house\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176555676
+    },
+    "id-20wdkvfdmue8wh7b": {
+      "id": "id-20wdkvfdmue8wh7b",
+      "session_id": "id-8x6hmv9emue8w6w0",
+      "task_id": "id-ek03omhemue1zwnm",
+      "selected_json": "[\"Apple\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176558871
+    },
+    "id-tw8u531imue8wjmd": {
+      "id": "id-tw8u531imue8wjmd",
+      "session_id": "id-8x6hmv9emue8w6w0",
+      "task_id": "id-84nowczimue1zwnm",
+      "selected_json": "[\"Yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176562005
+    },
+    "id-8hamp7b9mue8wnt4": {
+      "id": "id-8hamp7b9mue8wnt4",
+      "session_id": "id-4lo1h3k0mue8wmdi",
+      "task_id": "id-wecd3ejtmue37pt0",
+      "selected_json": "[\"After breakfast\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176567432
+    },
+    "id-2e3chz0emue8wqpv": {
+      "id": "id-2e3chz0emue8wqpv",
+      "session_id": "id-4lo1h3k0mue8wmdi",
+      "task_id": "id-gurcr7l8mue39qsl",
+      "selected_json": "[\"Water\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176571203
+    },
+    "id-hnmzbz2bmue8wt79": {
+      "id": "id-hnmzbz2bmue8wt79",
+      "session_id": "id-4lo1h3k0mue8wmdi",
+      "task_id": "id-3wqeevp6mue3aw2r",
+      "selected_json": "[\"yes\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176574421
+    },
+    "id-4uw6u8u3mue8wvpi": {
+      "id": "id-4uw6u8u3mue8wvpi",
+      "session_id": "id-4lo1h3k0mue8wmdi",
+      "task_id": "id-yel9fi4gmue3edb1",
+      "selected_json": "[\"Take the bottle\"]",
+      "is_correct": 0,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790176577670
+    },
+    "id-z2vyyb3amuf1wrqm": {
+      "id": "id-z2vyyb3amuf1wrqm",
+      "session_id": "id-akb5pr2ymuf1wp0u",
+      "task_id": "id-cmv8irihmue1zwnm",
+      "selected_json": "[\"Keys\"]",
+      "is_correct": 1,
+      "time_taken_seconds": 0,
+      "attempted_at": 1790225281390
+    }
+  },
+  "face_registry": {
+    "jayasri": {
+      "id": "jayasri",
+      "name": "jayasri",
+      "relationship": "granddaughter",
+      "embedding": [
+        -0.13715572655200958,
+        0.09910187870264053,
+        0.01978987827897072,
+        -0.06914868205785751,
+        -0.12989948689937592,
+        0.06132820248603821,
+        -0.031528886407613754,
+        -0.024292444810271263,
+        0.2526360750198364,
+        -0.15266640484333038,
+        0.15838474035263062,
+        0.02892867848277092,
+        -0.20315437018871307,
+        0.039486005902290344,
+        -0.03371484950184822,
+        0.1284143179655075,
+        -0.12461565434932709,
+        -0.16723570227622986,
+        -0.0814887210726738,
+        -0.0490327924489975,
+        0.0013738928828388453,
+        0.024611104279756546,
+        -0.000028454262064769864,
+        0.06803610175848007,
+        -0.21496431529521942,
+        -0.3280896544456482,
+        -0.006527394521981478,
+        -0.15516512095928192,
+        -0.05112478882074356,
+        -0.10776373744010925,
+        -0.004420367535203695,
+        0.07637879252433777,
+        -0.2230481654405594,
+        -0.03220837190747261,
+        0.0199853777885437,
+        0.1280931681394577,
+        -0.04802205413579941,
+        0.025423087179660797,
+        0.2120906263589859,
+        0.028294749557971954,
+        -0.2325318306684494,
+        -0.04207826033234596,
+        0.06735307723283768,
+        0.26840150356292725,
+        0.1571219116449356,
+        0.019572259858250618,
+        0.0023072746116667986,
+        -0.05242186412215233,
+        0.1170651763677597,
+        -0.24724504351615906,
+        0.01171696837991476,
+        0.1078028753399849,
+        0.12527120113372803,
+        0.056326910853385925,
+        0.13272418081760406,
+        -0.15310440957546234,
+        0.04969429969787598,
+        0.04964243620634079,
+        -0.16381463408470154,
+        0.04497452825307846,
+        0.008407521061599255,
+        -0.06442320346832275,
+        0.0014559973496943712,
+        -0.022544756531715393,
+        0.3261577785015106,
+        0.05529487505555153,
+        -0.09020481258630753,
+        -0.056364916265010834,
+        0.1959506720304489,
+        -0.12285032123327255,
+        -0.0215581264346838,
+        0.12494983524084091,
+        -0.06942442059516907,
+        -0.2186235785484314,
+        -0.24156449735164642,
+        0.017483964562416077,
+        0.4129088222980499,
+        0.18759579956531525,
+        -0.15729719400405884,
+        0.08512894809246063,
+        -0.061559583991765976,
+        -0.06371047347784042,
+        0.0315282829105854,
+        0.08802978694438934,
+        -0.1005580797791481,
+        0.09166887402534485,
+        -0.02096134051680565,
+        0.067336805164814,
+        0.2561134099960327,
+        0.018870951607823372,
+        -0.016872378066182137,
+        0.18030878901481628,
+        -0.00005755678648711182,
+        -0.01318611204624176,
+        0.05495491251349449,
+        -0.027969498187303543,
+        -0.11998800188302994,
+        -0.07045362144708633,
+        -0.19196197390556335,
+        -0.06397374719381332,
+        -0.005946027580648661,
+        -0.060177646577358246,
+        0.000982956262305379,
+        0.0920766219496727,
+        -0.22317355871200562,
+        0.06872308254241943,
+        -0.034111034125089645,
+        -0.10522386431694031,
+        -0.07432177662849426,
+        0.09704633802175522,
+        -0.1321721374988556,
+        -0.04912261292338371,
+        0.157270610332489,
+        -0.27154073119163513,
+        0.18308444321155548,
+        0.11852928251028061,
+        -0.021588323637843132,
+        0.15887048840522766,
+        0.1000312864780426,
+        0.014324245974421501,
+        0.005348446313291788,
+        0.0039215716533362865,
+        -0.10859304666519165,
+        -0.09289848059415817,
+        0.1189115047454834,
+        -0.059317853301763535,
+        0.15091609954833984,
+        0.0036282744258642197
+      ],
+      "created_at": 1790164991916
+    },
+    "sumitha": {
+      "id": "sumitha",
+      "name": "sumitha",
+      "relationship": "friend",
+      "embedding": [
+        -0.1613394170999527,
+        0.03773091360926628,
+        0.07235457003116608,
+        -0.05228518694639206,
+        -0.07025854289531708,
+        -0.0196235291659832,
+        0.06349679082632065,
+        -0.10052646696567535,
+        0.20291350781917572,
+        -0.15633699297904968,
+        0.20512613654136658,
+        -0.010192915797233582,
+        -0.24545818567276,
+        -0.04373392090201378,
+        -0.0356556735932827,
+        0.11046302318572998,
+        -0.1583254188299179,
+        -0.1982649564743042,
+        -0.060640256851911545,
+        -0.13207581639289856,
+        0.03345073014497757,
+        -0.026423757895827293,
+        -0.015709087252616882,
+        0.0388232059776783,
+        -0.16140806674957275,
+        -0.3041737675666809,
+        -0.13052776455879211,
+        -0.143997922539711,
+        0.040069155395030975,
+        -0.057017646729946136,
+        0.03819300979375839,
+        0.056365400552749634,
+        -0.27377358078956604,
+        -0.0001959581859409809,
+        -0.07168617099523544,
+        0.000012854710803367198,
+        0.00776521535590291,
+        -0.017697419971227646,
+        0.12261854112148285,
+        -0.0028010604437440634,
+        -0.14120711386203766,
+        -0.11613024771213531,
+        0.01205429993569851,
+        0.1790233552455902,
+        0.06769675016403198,
+        0.013807764276862144,
+        0.045401182025671005,
+        -0.030594393610954285,
+        -0.021557427942752838,
+        -0.18784143030643463,
+        0.0877513661980629,
+        0.11854072660207748,
+        0.15083108842372894,
+        0.039199717342853546,
+        0.03934794291853905,
+        -0.20307986438274384,
+        0.0013232753844931722,
+        0.034002549946308136,
+        -0.17670616507530212,
+        0.1263747662305832,
+        0.013292565941810608,
+        -0.10111811757087708,
+        -0.12497693300247192,
+        0.009457934647798538,
+        0.22762112319469452,
+        0.1157773807644844,
+        -0.06656592339277267,
+        -0.17056965827941895,
+        0.27568748593330383,
+        -0.15237464010715485,
+        0.011323177255690098,
+        0.10897061973810196,
+        -0.09812834113836288,
+        -0.1769270896911621,
+        -0.2594059109687805,
+        0.05437532812356949,
+        0.41285622119903564,
+        0.12637899816036224,
+        -0.11389939486980438,
+        0.07946974784135818,
+        -0.17523351311683655,
+        0.005263256840407848,
+        -0.021491318941116333,
+        0.03510811924934387,
+        -0.1370263248682022,
+        0.09547498822212219,
+        -0.11445172876119614,
+        0.08962353318929672,
+        0.12978169322013855,
+        0.003078473499044776,
+        -0.08760754764080048,
+        0.18986128270626068,
+        -0.05118445307016373,
+        -0.03909637778997421,
+        0.03860060125589371,
+        -0.007976502180099487,
+        -0.05322188138961792,
+        -0.06546186655759811,
+        -0.061422381550073624,
+        -0.07576941698789597,
+        0.0740753710269928,
+        -0.08420594036579132,
+        -0.0653122290968895,
+        0.0774628296494484,
+        -0.1572991907596588,
+        0.09046301990747452,
+        -0.026202082633972168,
+        -0.06895969808101654,
+        -0.07973092049360275,
+        0.03505275771021843,
+        -0.13207238912582397,
+        -0.04859752580523491,
+        0.14497071504592896,
+        -0.2616886496543884,
+        0.16738831996917725,
+        0.16057787835597992,
+        -0.011347603052854538,
+        0.18555979430675507,
+        0.04774349927902222,
+        0.07020203769207001,
+        -0.013354173861443996,
+        -0.09005847573280334,
+        -0.1451721340417862,
+        -0.0602797269821167,
+        0.08630508929491043,
+        -0.06086752191185951,
+        0.06598267704248428,
+        0.0514066144824028
+      ],
+      "created_at": 1790165376562
+    }
+  },
+  "object_registry": {
+    "phone": {
+      "id": "phone",
+      "name": "phone",
+      "description": "mycell phone",
+      "cocoClass": "cell phone",
+      "created_at": 1790165050945
+    },
+    "ear pods": {
+      "id": "ear pods",
+      "name": "ear pods",
+      "description": "my earpods",
+      "cocoClass": "apple",
+      "created_at": 1790165117777
+    },
+    "pen": {
+      "id": "pen",
+      "name": "pen",
+      "description": "my pen",
+      "cocoClass": "knife",
+      "created_at": 1790224902043
+    }
+  },
+  "meta": {
+    "seeded": {
+      "id": "seeded",
+      "key": "seeded",
+      "value": true
+    }
+  }
+}
